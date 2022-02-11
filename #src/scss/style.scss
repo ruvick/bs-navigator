@@ -146,9 +146,76 @@ h4 {
 }
 //===================================================================================================================================
 
+.slider-bg-wrap {
+	position: relative;
+}
+.slider-bg {
+	background: grey;
+	&__container {
+		position: relative;
+		z-index: 500;
+	}
 
+	&__slide {
+		position: relative;
+		width: 100%;
+		padding: 162px 0 260px 0;
+		background-repeat: no-repeat !important;
+		background-size: cover !important;
+		background-position: center !important;
+	}
 
+	&__title {
+		margin-bottom: 20px;
+	}
 
+	&__subtitle {
+		line-height: 24px;
+		color: #738961;
+	}
+}
+
+.swiper-button-block {
+	display: flex;
+	justify-content: space-between;
+	width: 125px;
+}
+
+.slider-bg__swiper-button-block {
+	display: block;
+	position: absolute;
+	left: 19%;
+	bottom: 30%;
+}
+
+.slider-bg__swiper-button-block ._container {
+	display: flex;
+	justify-content: space-between;
+} 
+
+.slider-main__slide{
+	background: url('../img/index-bg.jpg');
+}
+//========================================================================================================================================================
+
+.consult {
+	padding: 61px 0;
+	background: #E6EBE2;
+}
+
+.consult__row {
+	justify-content: space-between;
+	align-items: center;
+}
+
+.consult__title {
+}
+.consult__subtitle {
+}
+.consult__btn {
+}
+
+//========================================================================================================================================================
 
 .banner {
 	padding: 55px 0 115px 0;
