@@ -127,7 +127,6 @@ h6 {
 body {
   font-weight: 400;
   color: #000;
-  background: #333;
 }
 body a {
   font-family: "Lato";
@@ -3246,7 +3245,60 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .page {
   flex: 1 1 auto;
-  padding-top: 80px;
+}
+
+.banner {
+  padding: 55px 0 115px 0;
+  height: 300px;
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../img/service-bg-01.jpg");
+}
+
+.descript {
+  padding: 40px 0 65px 0;
+}
+
+.descript span {
+  font-weight: 700;
+}
+
+.descript p {
+  line-height: 33px;
+}
+
+.descript ul,
+.descript p {
+  margin-bottom: 45px;
+}
+
+.descript ul:last-child,
+.descript p:last-child {
+  margin-bottom: 0;
+}
+
+.descript h5 {
+  margin-bottom: 10px;
+}
+
+.descript ul li {
+  margin-bottom: 15px;
+}
+
+.descript ul li:last-child {
+  margin-bottom: 0;
+}
+
+.descript ul li:before {
+  content: "";
+  float: left;
+  width: 8px;
+  height: 8px;
+  margin-top: 7px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: #FE783E;
 }
 
 @media (max-width: 1200px) {
