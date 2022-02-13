@@ -5,6 +5,13 @@
 	}
 }
 
+@media (max-width: 1160px) {
+	.footer__menu a {
+    padding: 5px 35px 5px 0;}
+	.footer__menu {
+		margin-bottom: 15px;}
+	}
+
 @media (max-width: 1150px) {
 	.header__menu-list li a {
 		padding: 5px 35px 5px 0;}
@@ -79,15 +86,21 @@
 }
 
 @media (max-width: 515px) {
-	// .header__contacts {
-	// 	display: none;}
-	// .header__mob-phone-icon {
-  //   display: flex; 
-	// 	margin-right: 25px;}
+	.footer {
+    padding: 20px 0;}
+	.footer__row {
+    flex-direction: column;}
+	.footer__menu {
+		flex-direction: column;}
 	.popup__img {
 		display: none;}
 	.popup__form-block {
 		flex: 0 1 100%;}
+	.footer__info {
+		flex-wrap: wrap;}
+	.footer__info-policy {
+		flex: 0 1 100%;
+		margin-top: 5px;}
 }
 
 @media (max-width: 480px) {

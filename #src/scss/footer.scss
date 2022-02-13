@@ -14,10 +14,14 @@
   }
   &__menu {
     display: flex;
+    flex-wrap: wrap;
+    margin-right: 25px;
     a {
+      display: block;
       font-size: 16px;
       color: #fff;
-      padding-left: 75px;
+      padding-right: 75px;
+      padding: 5px 75px 5px 0;
     }
   }
   // .footer__item 
