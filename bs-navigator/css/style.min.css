@@ -1,30 +1,37 @@
 @charset "UTF-8";
 @font-face {
-  font-family: "Gilroy-Bold";
-  font-display: swap;
-  src: url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff");
+  font-family: "TTFirsNeue";
+  src: url("../fonts/TTFirsNeue-Thin.eot");
+  src: local("☺"), url("../fonts/TTFirsNeue-Thin.woff") format("woff"), url("../fonts/TTFirsNeue-Thin.ttf") format("truetype"), url("../fonts/TTFirsNeue-Thin.svg") format("svg");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TTFirsNeue";
+  src: url("../fonts/TTFirsNeue-Light.eot");
+  src: local("☺"), url("../fonts/TTFirsNeue-Light.woff") format("woff"), url("../fonts/TTFirsNeue-Light.ttf") format("truetype"), url("../fonts/TTFirsNeue-Light.svg") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TTFirsNeue";
+  src: url("../fonts/TTFirsNeue-Regular.eot");
+  src: local("☺"), url("../fonts/TTFirsNeue-Regular.woff") format("woff"), url("../fonts/TTFirsNeue-Regular.ttf") format("truetype"), url("../fonts/TTFirsNeue-Regular.svg") format("svg");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: "Gilroy-Medium";
-  font-display: swap;
-  src: url("../fonts/Gilroy-Medium.woff2") format("woff2"), url("../fonts/Gilroy-Medium.woff") format("woff");
-  font-weight: 400;
+  font-family: "TTFirsNeue";
+  src: url("../fonts/TTFirsNeue-Medium.eot");
+  src: local("☺"), url("../fonts/TTFirsNeue-Medium.woff") format("woff"), url("../fonts/TTFirsNeue-Medium.ttf") format("truetype"), url("../fonts/TTFirsNeue-Medium.svg") format("svg");
+  font-weight: 500;
   font-style: normal;
 }
 @font-face {
-  font-family: "Gilroy-SemiBold";
-  font-display: swap;
-  src: url("../fonts/Gilroy-SemiBold.woff2") format("woff2"), url("../fonts/Gilroy-SemiBold.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Gilroy-Regular";
-  font-display: swap;
-  src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff");
-  font-weight: 400;
+  font-family: "TTFirsNeue";
+  src: url("../fonts/TTFirsNeue-ExtraBold.eot");
+  src: local("☺"), url("../fonts/TTFirsNeue-ExtraBold.woff") format("woff"), url("../fonts/TTFirsNeue-ExtraBold.ttf") format("truetype"), url("../fonts/TTFirsNeue-ExtraBold.svg") format("svg");
+  font-weight: 800;
   font-style: normal;
 }
 * {
@@ -61,7 +68,7 @@ body {
 
 body {
   line-height: 1;
-  font-family: "";
+  font-family: "TTFirsNeue";
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -70,7 +77,7 @@ body {
 input,
 button,
 textarea {
-  font-family: "";
+  font-family: "TTFirsNeue";
   font-size: inherit;
 }
 
@@ -129,7 +136,7 @@ body {
   color: #000;
 }
 body a {
-  font-family: "Lato";
+  font-family: "TTFirsNeue";
   color: #000;
 }
 body._lock {

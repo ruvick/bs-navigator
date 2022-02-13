@@ -7,7 +7,51 @@
 
 //<Подключаем шрифты>=======================================================================================
 //&display=swap&subset=cyrillic-ext 
-@import "fonts";
+// @import "fonts";
+@font-face { 
+	font-family: "TTFirsNeue";
+	src: url("../fonts/TTFirsNeue-Thin.eot");
+	src: local("☺"), url("../fonts/TTFirsNeue-Thin.woff") format("woff"), url("../fonts/TTFirsNeue-Thin.ttf") format("truetype"),
+	url("../fonts/TTFirsNeue-Thin.svg") format("svg");
+	font-weight: 100;
+	font-style: normal;   
+}
+
+@font-face { 
+	font-family: "TTFirsNeue";
+	src: url("../fonts/TTFirsNeue-Light.eot");
+	src: local("☺"), url("../fonts/TTFirsNeue-Light.woff") format("woff"), url("../fonts/TTFirsNeue-Light.ttf") format("truetype"),
+	url("../fonts/TTFirsNeue-Light.svg") format("svg");
+	font-weight: 300;
+	font-style: normal;   
+}
+
+@font-face { 
+	font-family: "TTFirsNeue";
+	src: url("../fonts/TTFirsNeue-Regular.eot");
+	src: local("☺"), url("../fonts/TTFirsNeue-Regular.woff") format("woff"), url("../fonts/TTFirsNeue-Regular.ttf") format("truetype"),
+	url("../fonts/TTFirsNeue-Regular.svg") format("svg");
+	font-weight: 400;
+	font-style: normal;   
+}
+
+@font-face { 
+	font-family: "TTFirsNeue";
+	src: url("../fonts/TTFirsNeue-Medium.eot");
+	src: local("☺"), url("../fonts/TTFirsNeue-Medium.woff") format("woff"), url("../fonts/TTFirsNeue-Medium.ttf") format("truetype"),
+	url("../fonts/TTFirsNeue-Medium.svg") format("svg");
+	font-weight: 500;
+	font-style: normal;   
+}
+
+@font-face { 
+	font-family: "TTFirsNeue";
+	src: url("../fonts/TTFirsNeue-ExtraBold.eot");
+	src: local("☺"), url("../fonts/TTFirsNeue-ExtraBold.woff") format("woff"), url("../fonts/TTFirsNeue-ExtraBold.ttf") format("truetype"),
+	url("../fonts/TTFirsNeue-ExtraBold.svg") format("svg");
+	font-weight: 800;
+	font-style: normal;   
+}
 //</Подключаем шрифты>=======================================================================================
 
 //<Иконочные шрифты>==========================================================================================
@@ -15,7 +59,7 @@
 //</Иконочные шрифты>==========================================================================================
 
 //<Шрифт по умолчанию>==========================================================================================
-$fontFamily: "";
+$fontFamily: "TTFirsNeue";
 $fontSize: 20;
 //</Шрифт по умолчанию>==========================================================================================
 
@@ -41,7 +85,7 @@ body {
 	color: $mainColor;
 	// background: #333;
 	a {
-		font-family: "Lato";
+		font-family: "TTFirsNeue";
 		color: #000;
 	}
 	&._lock {
