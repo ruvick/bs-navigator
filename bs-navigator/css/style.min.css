@@ -144,28 +144,28 @@ body._lock {
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 50px;
+  line-height: 128%;
   font-weight: 500;
-  line-height: 132%;
-  line-height: 38px;
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 30px;
+  line-height: 39px;
+  line-height: 130%;
   font-weight: 500;
-  line-height: 38px;
 }
 
 h3 {
-  font-size: 28px;
+  font-size: 20px;
+  line-height: 130%;
   font-weight: 500;
-  line-height: 38px;
 }
 
 h4 {
-  font-size: 25px;
+  font-size: 18px;
+  line-height: 120%;
   font-weight: 500;
-  line-height: 38px;
 }
 
 .title {
@@ -206,8 +206,9 @@ h4 {
   align-items: center;
   text-align: center;
   padding: 10px 15px;
+  font-weight: 500;
   font-size: 14px;
-  font-weight: 600;
+  line-height: 18px;
   color: #fff;
   background: #FE783E;
 }
@@ -3042,8 +3043,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .menu-list a {
   display: block;
   font-size: 16px;
-  font-weight: 500;
-  padding: 5px 35px 5px 0;
+  font-weight: 400;
+  padding: 5px 71px 5px 0;
 }
 
 .header__menu-list {
@@ -3055,8 +3056,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 .contacts__phone {
   font-size: 16px;
-  font-weight: 700;
-  line-height: 1;
+  font-weight: 500;
+  line-height: 21px;
 }
 
 .header__social-link {
@@ -3268,13 +3269,13 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   padding: 162px 0 260px 0;
   background-repeat: no-repeat !important;
   background-size: cover !important;
-  background-position: center !important;
+  background-position: 80% 50% !important;
 }
 .slider-bg__title {
   margin-bottom: 20px;
 }
 .slider-bg__subtitle {
-  line-height: 24px;
+  line-height: 26px;
   color: #738961;
 }
 
@@ -3325,6 +3326,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .about__descp p {
+  line-height: 33px;
+  font-weight: 500;
   margin-bottom: 25px;
 }
 
@@ -3399,7 +3402,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .services__card-descp-list li {
   display: flex;
   font-size: 14px;
-  line-height: 18.6px;
+  line-height: 18px;
   margin-bottom: 15px;
 }
 
@@ -3410,12 +3413,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .services__card-descp-list li:before {
   content: "";
   float: left;
-  flex: 0 0 8px;
-  height: 8px;
-  margin-top: 5px;
-  margin-right: 10px;
-  border-radius: 50%;
+  flex: 0 0 4px;
+  height: 4px;
+  margin-top: 6px;
+  margin-right: 6px;
   background: #FE783E;
+  border-radius: 1px;
 }
 
 .action {
@@ -3437,6 +3440,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   margin-bottom: 20px;
 }
 
+.action__subtitle {
+  line-height: 26px;
+}
+
 .action__link {
   margin-top: 40px;
 }
@@ -3449,6 +3456,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .consult__row {
   justify-content: space-between;
   align-items: center;
+}
+
+.consult__subtitle {
+  line-height: 26px;
 }
 
 .advant {
@@ -3470,12 +3481,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   align-items: center;
 }
 
-.advant__item h4 {
-  font-size: 20px;
-  line-height: 20.75px;
-  font-weight: 600;
-  margin-bottom: 13px;
+.advant__item h3 {
   text-align: center;
+  margin-bottom: 13px;
 }
 
 .advant__item p {
